@@ -29,32 +29,37 @@
     <path d="M12 3c.6 3.4 1.6 4.9 5 5.5-3.4.6-4.4 2.1-5 5.5-.6-3.4-1.6-4.9-5-5.5 3.4-.6 4.4-2.1 5-5.5Z"/>
     <path d="M19 15c.3 1.6.8 2.3 2.4 2.6-1.6.3-2.1 1-2.4 2.6-.3-1.6-.8-2.3-2.4-2.6 1.6-.3 2.1-1 2.4-2.6Z"/>
   </symbol>
+  <symbol id="icon-arrow" viewBox="0 0 24 24">
+    <path d="M4 12h15M13 6l6 6-6 6"/>
+  </symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24">
+    <path d="M5 5l14 14M19 5L5 19"/>
+  </symbol>
+  <symbol id="icon-chevron" viewBox="0 0 24 24">
+    <path d="M15 5l-7 7 7 7"/>
+  </symbol>
 </svg>
 
 <header class="hero">
-  <div class="container hero-inner">
-    <svg class="crown" viewBox="0 0 100 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M8,54 L16.4,27 L24.8,41 L33.2,18 L41.6,38 L50,8 L58.4,38 L66.8,18 L75.2,41 L83.6,27 L92,54" stroke="#D4AF37" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M8,54 Q50,63 92,54" stroke="#D4AF37" stroke-width="2.2" stroke-linecap="round"/>
-      <circle cx="16.4" cy="27" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
-      <circle cx="33.2" cy="18" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
-      <circle cx="50" cy="8" r="2.9" stroke="#D4AF37" stroke-width="1.4"/>
-      <circle cx="66.8" cy="18" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
-      <circle cx="83.6" cy="27" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
-    </svg>
-    <h1 class="wordmark">Crown'd by <span class="accent">Kali</span></h1>
-    <p class="tagline">Braids and braiding education in Raleigh, NC.</p>
+  <div class="container container-wide hero-inner">
+    <div class="hero-text">
+      <svg class="crown" viewBox="0 0 100 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M8,54 L16.4,27 L24.8,41 L33.2,18 L41.6,38 L50,8 L58.4,38 L66.8,18 L75.2,41 L83.6,27 L92,54" stroke="#D4AF37" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8,54 Q50,63 92,54" stroke="#D4AF37" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="16.4" cy="27" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
+        <circle cx="33.2" cy="18" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
+        <circle cx="50" cy="8" r="2.9" stroke="#D4AF37" stroke-width="1.4"/>
+        <circle cx="66.8" cy="18" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
+        <circle cx="83.6" cy="27" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
+      </svg>
+      <h1 class="wordmark">Crown'd by <span class="accent">Kali</span></h1>
+      <p class="tagline">Braids and braiding education in Raleigh, NC.</p>
+    </div>
 
-    <div class="photo-band">
-      <figure class="photo-card tilt-left">
-        <img src="images/braid2.jpg" alt="Box braids with a woven pink accent, side profile" loading="lazy">
-      </figure>
-      <figure class="photo-card">
-        <img src="images/braid1.jpg" alt="Burgundy box braids portrait" loading="lazy">
-      </figure>
-      <figure class="photo-card tilt-right">
-        <img src="images/braid3.jpg" alt="Braids with rainbow-dipped ends, back view" loading="lazy">
-      </figure>
+    <div class="hero-photo">
+      <button class="lightbox-trigger" data-group="hero" data-index="0">
+        <img src="images/hero.jpg" alt="Burgundy box braids portrait, the Crown'd by Kali signature look">
+      </button>
     </div>
   </div>
 </header>
@@ -62,7 +67,7 @@
 <main>
 
   <section class="class-block" id="class" aria-labelledby="class-heading">
-    <div class="container">
+    <div class="container container-wide">
       <p class="eyebrow">the class.</p>
       <h2 id="class-heading">Beginner <span class="accent">Braiding</span> Class</h2>
       <p class="class-details">
@@ -72,9 +77,25 @@
       </p>
 
       <div class="class-layout">
-        <div class="class-media">
-          <img src="images/braid4.jpg" alt="Close-up geometric braid parting pattern" loading="lazy">
-          <img src="images/braid5.jpg" alt="Spiral cornrow parting detail" loading="lazy">
+        <div class="cascade-wrap">
+          <div class="cascade">
+            <figure class="cascade-card">
+              <button class="lightbox-trigger" data-group="cascade" data-index="0">
+                <img src="images/cascade-1.jpg" alt="Knotless braids install, side profile with a purple accent strand">
+              </button>
+            </figure>
+            <figure class="cascade-card">
+              <button class="lightbox-trigger" data-group="cascade" data-index="1">
+                <img src="images/cascade-2.jpg" alt="Same knotless braids install, top-down view of the grid parting">
+              </button>
+            </figure>
+            <figure class="cascade-card">
+              <button class="lightbox-trigger" data-group="cascade" data-index="2">
+                <img src="images/cascade-3.jpg" alt="Same knotless braids install, back view with rainbow-dipped ends">
+              </button>
+            </figure>
+          </div>
+          <p class="cascade-caption">One install. Every angle. That's the standard.</p>
         </div>
 
         <div class="class-grid">
@@ -106,6 +127,35 @@
     </div>
   </section>
 
+  <section class="progression-block" id="process" aria-labelledby="process-heading">
+    <div class="container container-wide">
+      <p class="eyebrow">the process.</p>
+      <h2 id="process-heading" class="sr-only">The Process</h2>
+
+      <div class="progression">
+        <figure class="progression-card">
+          <button class="lightbox-trigger" data-group="progression" data-index="0">
+            <img src="images/progress-1.jpg" alt="Sides braided in progress, before the design is finished">
+          </button>
+        </figure>
+        <svg class="progression-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg>
+        <figure class="progression-card">
+          <button class="lightbox-trigger" data-group="progression" data-index="1">
+            <img src="images/progress-2.jpg" alt="Design view of the parting pattern in progress">
+          </button>
+        </figure>
+        <svg class="progression-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg>
+        <figure class="progression-card">
+          <button class="lightbox-trigger" data-group="progression" data-index="2">
+            <img src="images/progress-3.jpg" alt="Finished braided style with beads, child's face obscured for privacy">
+          </button>
+        </figure>
+      </div>
+
+      <p class="progression-caption">Braids are built, not rushed. This is what learning looks like.</p>
+    </div>
+  </section>
+
   <section class="booking-block" id="booking" aria-labelledby="booking-heading">
     <div class="container">
       <p class="eyebrow">book a chair.</p>
@@ -115,7 +165,9 @@
           <p>Want braids, not the class? Book a seat in the chair.</p>
           <a class="btn btn-gold" href="GLOSSGENIUS_LINK_PLACEHOLDER">Book an Appointment</a>
         </div>
-        <img class="booking-photo" src="images/braid6.jpg" alt="Braids with pink accent detail, back view" loading="lazy">
+        <button class="lightbox-trigger booking-photo" data-group="booking" data-index="0">
+          <img src="images/booking.jpg" alt="Finished braided style, back view">
+        </button>
       </div>
     </div>
   </section>
@@ -138,6 +190,99 @@
     <p>Taught by a licensed NC cosmetologist. Classes are for personal and family use. Certificate of completion is not a state credential and does not count toward licensure.</p>
   </div>
 </footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#icon-close"/></svg>
+  </button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-chevron"/></svg>
+  </button>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform:scaleX(-1)"><use href="#icon-chevron"/></svg>
+  </button>
+</div>
+
+<script>
+(function () {
+  var groups = {};
+  var triggers = Array.prototype.slice.call(document.querySelectorAll('.lightbox-trigger'));
+
+  triggers.forEach(function (btn) {
+    var g = btn.getAttribute('data-group');
+    if (!groups[g]) groups[g] = [];
+    groups[g].push(btn);
+  });
+
+  var lightbox = document.getElementById('lightbox');
+  var imgEl = document.getElementById('lightboxImg');
+  var closeBtn = document.getElementById('lightboxClose');
+  var prevBtn = document.getElementById('lightboxPrev');
+  var nextBtn = document.getElementById('lightboxNext');
+
+  var currentGroup = null;
+  var currentIndex = 0;
+  var lastFocused = null;
+
+  function render() {
+    var list = groups[currentGroup];
+    var btn = list[currentIndex];
+    var img = btn.querySelector('img');
+    imgEl.src = img.getAttribute('src');
+    imgEl.alt = img.getAttribute('alt') || '';
+    var multi = list.length > 1;
+    prevBtn.style.display = multi ? '' : 'none';
+    nextBtn.style.display = multi ? '' : 'none';
+  }
+
+  function open(groupName, index) {
+    currentGroup = groupName;
+    currentIndex = index;
+    lastFocused = document.activeElement;
+    render();
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('lightbox-lock');
+    closeBtn.focus();
+  }
+
+  function close() {
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('lightbox-lock');
+    imgEl.src = '';
+    if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+  }
+
+  function step(delta) {
+    var list = groups[currentGroup];
+    currentIndex = (currentIndex + delta + list.length) % list.length;
+    render();
+  }
+
+  triggers.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      open(btn.getAttribute('data-group'), parseInt(btn.getAttribute('data-index'), 10));
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  prevBtn.addEventListener('click', function () { step(-1); });
+  nextBtn.addEventListener('click', function () { step(1); });
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) close();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') step(-1);
+    if (e.key === 'ArrowRight') step(1);
+  });
+})();
+</script>
 
 </body>
 </html>
