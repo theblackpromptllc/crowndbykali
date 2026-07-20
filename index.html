@@ -7,25 +7,55 @@
 <meta name="description" content="Braids and braiding education in Raleigh, NC. Beginner Braiding Class and appointment booking with Crown'd by Kali.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+<svg class="icon-defs" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <symbol id="icon-clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="8.5"/>
+    <path d="M12 7.5V12l3.2 2"/>
+  </symbol>
+  <symbol id="icon-pin" viewBox="0 0 24 24">
+    <path d="M12 21s-6.75-6.02-6.75-11.25a6.75 6.75 0 0 1 13.5 0C18.75 14.98 12 21 12 21Z"/>
+    <circle cx="12" cy="9.75" r="2.4"/>
+  </symbol>
+  <symbol id="icon-chair" viewBox="0 0 24 24">
+    <path d="M6 4v9a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4"/>
+    <path d="M6 20v-3M18 20v-3M6 13H4M18 13h2"/>
+  </symbol>
+  <symbol id="icon-spark" viewBox="0 0 24 24">
+    <path d="M12 3c.6 3.4 1.6 4.9 5 5.5-3.4.6-4.4 2.1-5 5.5-.6-3.4-1.6-4.9-5-5.5 3.4-.6 4.4-2.1 5-5.5Z"/>
+    <path d="M19 15c.3 1.6.8 2.3 2.4 2.6-1.6.3-2.1 1-2.4 2.6-.3-1.6-.8-2.3-2.4-2.6 1.6-.3 2.1-1 2.4-2.6Z"/>
+  </symbol>
+</svg>
+
 <header class="hero">
   <div class="container hero-inner">
-    <svg class="crown crown-hero" viewBox="0 0 120 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M8,55 L20,18 L32,38 L45,12 L52,34 L60,5 L68,34 L75,12 L88,38 L100,18 L112,55 Q60,66 8,55 Z" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M55,49 L60,44 L65,49 L60,54 Z" stroke="#D4AF37" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M22,52 L98,52" stroke="#D4AF37" stroke-width="0.75" stroke-linecap="round" opacity="0.6"/>
-      <circle cx="20" cy="18" r="2.75" stroke="#D4AF37" stroke-width="1.25"/>
-      <circle cx="45" cy="12" r="2.75" stroke="#D4AF37" stroke-width="1.25"/>
-      <circle cx="60" cy="5" r="3" stroke="#D4AF37" stroke-width="1.25"/>
-      <circle cx="75" cy="12" r="2.75" stroke="#D4AF37" stroke-width="1.25"/>
-      <circle cx="100" cy="18" r="2.75" stroke="#D4AF37" stroke-width="1.25"/>
+    <svg class="crown" viewBox="0 0 100 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M8,54 L16.4,27 L24.8,41 L33.2,18 L41.6,38 L50,8 L58.4,38 L66.8,18 L75.2,41 L83.6,27 L92,54" stroke="#D4AF37" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8,54 Q50,63 92,54" stroke="#D4AF37" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="16.4" cy="27" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
+      <circle cx="33.2" cy="18" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
+      <circle cx="50" cy="8" r="2.9" stroke="#D4AF37" stroke-width="1.4"/>
+      <circle cx="66.8" cy="18" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
+      <circle cx="83.6" cy="27" r="2.6" stroke="#D4AF37" stroke-width="1.4"/>
     </svg>
-    <h1 class="wordmark">Crown<span class="gold-apos">'d</span> by Kali</h1>
-    <p class="tagline">Braids and braiding education in <span class="accent-blush">Raleigh, NC</span>.</p>
+    <h1 class="wordmark">Crown'd by <span class="accent">Kali</span></h1>
+    <p class="tagline">Braids and braiding education in Raleigh, NC.</p>
+
+    <div class="photo-band">
+      <figure class="photo-card tilt-left">
+        <img src="images/braid2.jpg" alt="Box braids with a woven pink accent, side profile" loading="lazy">
+      </figure>
+      <figure class="photo-card">
+        <img src="images/braid1.jpg" alt="Burgundy box braids portrait" loading="lazy">
+      </figure>
+      <figure class="photo-card tilt-right">
+        <img src="images/braid3.jpg" alt="Braids with rainbow-dipped ends, back view" loading="lazy">
+      </figure>
+    </div>
   </div>
 </header>
 
@@ -33,29 +63,38 @@
 
   <section class="class-block" id="class" aria-labelledby="class-heading">
     <div class="container">
-      <p class="eyebrow">The main event</p>
-      <h2 id="class-heading">Beginner <span class="gold-word">Braiding</span> Class</h2>
+      <p class="eyebrow">the class.</p>
+      <h2 id="class-heading">Beginner <span class="accent">Braiding</span> Class</h2>
       <p class="class-details">
-        Friday, July 31 <span class="dot">&bull;</span> 9:30 AM to 1:30 PM <span class="dot">&bull;</span> Research Triangle Park, 15 minutes from Raleigh, 15 from Durham <span class="dot">&bull;</span> Only 6 seats
+        <span class="meta-item"><svg class="icon"><use href="#icon-clock"/></svg>Friday, July 31 &bull; 9:30 AM to 1:30 PM</span>
+        <span class="meta-item"><svg class="icon"><use href="#icon-pin"/></svg>Research Triangle Park, 15 minutes from Raleigh, 15 from Durham</span>
+        <span class="meta-item"><svg class="icon"><use href="#icon-chair"/></svg>Only 6 seats</span>
       </p>
 
-      <div class="class-grid">
-        <div class="class-card card-offset-up">
-          <h3>What you'll learn</h3>
-          <ul>
-            <li>The Braid</li>
-            <li>The Cornrow</li>
-            <li>Adding Hair (Feed-In)</li>
-          </ul>
+      <div class="class-layout">
+        <div class="class-media">
+          <img src="images/braid4.jpg" alt="Close-up geometric braid parting pattern" loading="lazy">
+          <img src="images/braid5.jpg" alt="Spiral cornrow parting detail" loading="lazy">
         </div>
-        <div class="class-card card-offset-down">
-          <h3>Included</h3>
-          <ul>
-            <li>Braiding kit with mannequin</li>
-            <li>Crown'd Braider t-shirt</li>
-            <li>Certificate of completion</li>
-            <li>The Legal Path talk on how NC licensure works</li>
-          </ul>
+
+        <div class="class-grid">
+          <div class="class-card">
+            <h3>What you'll learn</h3>
+            <ul>
+              <li>The Braid</li>
+              <li>The Cornrow</li>
+              <li>Adding Hair (Feed-In)</li>
+            </ul>
+          </div>
+          <div class="class-card">
+            <h3>Included</h3>
+            <ul class="included-list">
+              <li><svg class="icon icon-blush"><use href="#icon-spark"/></svg>Braiding kit with mannequin</li>
+              <li><svg class="icon icon-blush"><use href="#icon-spark"/></svg>Crown'd Braider t-shirt</li>
+              <li><svg class="icon icon-blush"><use href="#icon-spark"/></svg>Certificate of completion</li>
+              <li><svg class="icon icon-blush"><use href="#icon-spark"/></svg>The Legal Path talk on how NC licensure works</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -67,43 +106,24 @@
     </div>
   </section>
 
-  <div class="section-divider" aria-hidden="true">
-    <span class="rule"></span>
-    <svg class="crown crown-mini" viewBox="0 0 60 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M4,27 L10,9 L16,19 L22,6 L26,17 L30,2 L34,17 L38,6 L44,19 L50,9 L56,27 Q30,33 4,27 Z" stroke="#D4AF37" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="10" cy="9" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="22" cy="6" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="30" cy="2" r="1.6" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="38" cy="6" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="50" cy="9" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-    </svg>
-    <span class="rule"></span>
-  </div>
-
   <section class="booking-block" id="booking" aria-labelledby="booking-heading">
     <div class="container">
-      <h2 id="booking-heading">Booking braids in Raleigh</h2>
-      <p>Want braids, not the class? Book a seat in the chair.</p>
-      <a class="btn btn-gold" href="GLOSSGENIUS_LINK_PLACEHOLDER">Book an Appointment</a>
+      <p class="eyebrow">book a chair.</p>
+      <div class="booking-inner">
+        <div class="booking-text">
+          <h2 id="booking-heading">Booking <span class="accent">braids</span> in Raleigh</h2>
+          <p>Want braids, not the class? Book a seat in the chair.</p>
+          <a class="btn btn-gold" href="GLOSSGENIUS_LINK_PLACEHOLDER">Book an Appointment</a>
+        </div>
+        <img class="booking-photo" src="images/braid6.jpg" alt="Braids with pink accent detail, back view" loading="lazy">
+      </div>
     </div>
   </section>
 
-  <div class="section-divider" aria-hidden="true">
-    <span class="rule"></span>
-    <svg class="crown crown-mini" viewBox="0 0 60 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M4,27 L10,9 L16,19 L22,6 L26,17 L30,2 L34,17 L38,6 L44,19 L50,9 L56,27 Q30,33 4,27 Z" stroke="#D4AF37" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="10" cy="9" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="22" cy="6" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="30" cy="2" r="1.6" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="38" cy="6" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-      <circle cx="50" cy="9" r="1.4" stroke="#D4AF37" stroke-width="0.8"/>
-    </svg>
-    <span class="rule"></span>
-  </div>
-
   <section class="contact-block" id="contact" aria-labelledby="contact-heading">
     <div class="container">
-      <h2 id="contact-heading">Get in touch</h2>
+      <p class="eyebrow">get in touch.</p>
+      <h2 id="contact-heading">Get in <span class="accent">touch</span></h2>
       <div class="contact-links">
         <a class="contact-link" href="INSTAGRAM_URL">Instagram</a>
         <a class="contact-link" href="mailto:EMAIL_ADDRESS">EMAIL_ADDRESS</a>
